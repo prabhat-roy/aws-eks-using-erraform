@@ -28,3 +28,18 @@ variable "instance_type" {
 variable "ssh_key" {
   type = string
 }
+
+variable "capacity" {
+  type = string
+}
+
+variable "disk_size" {
+  type = number
+}
+variable "ami_type" {
+  type = string
+}
+
+variable "cluster_name" {
+  type = string
+}
